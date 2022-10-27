@@ -1,4 +1,5 @@
 const container = document.querySelector(".grid");
+const btn = document.querySelector("button");
 
 function createGrid() {
 
@@ -28,4 +29,8 @@ function changeColor(e) {
     if (e.type === 'mouseover' && !mouseDown) return
     e.target.style.backgroundColor = "green";
 }
+
+btn.addEventListener("click", () => {
+    window.location.reload();
+})
 createGrid();
