@@ -1,3 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./pencil-sketch-texture_1409-1476.jpeg);
+}
+
+.header {
+    align-self: center;
+}
+
+h1 {
+    color: green;
+}
+
+h3 {
+    color: green;
+}
+
+.main {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
