@@ -46,6 +46,20 @@ button {
     background-color: gainsboro;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: green;
+}
+
 
 /*.cell:hover {
     background-color: black;
