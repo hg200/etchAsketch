@@ -12,7 +12,8 @@ function createGrid() {
         for (let j = 1; j <= size; j++) {
             console.log(j);
             const cell = document.createElement("div");
-            cell.innerHTML = count;
+            //cell.innerHTML = count;
+            cell.style.backgroundColor = "transparent";
             count++;
             //cell.style.backgroundColor = "red";
             cell.style.height = `${cellH}`;
