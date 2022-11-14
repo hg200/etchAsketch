@@ -1,8 +1,14 @@
+:root {
+    --main-clr: green;
+    --secondary-clr: black;
+    --tertiary-clr: gainsboro;
+}
+
 body {
     display: flex;
     flex-direction: column;
     background-image: url(./pencil-sketch-texture_1409-1476.jpeg);
-    background-repeat: repeat-y;
+    background-repeat: repeat;
 }
 
 .header {
@@ -10,11 +16,11 @@ body {
 }
 
 h1 {
-    color: green;
+    color: var(--main-clr);
 }
 
 h3 {
-    color: green;
+    color: var(--main-clr);
 }
 
 .main {
@@ -27,8 +33,8 @@ button {
     align-self: center;
     margin-top: 50px;
     width: 100px;
-    color: green;
-    border-color: green;
+    color: var(--main-clr);
+    border-color: var(--main-clr)
 }
 
 .grid {
@@ -38,12 +44,12 @@ button {
     width: 500px;
     height: 500px;
     border-style: groove;
-    border-color: green;
+    border-color: var(--main-clr);
 }
 
 .cell {
     display: flex;
-    background-color: gainsboro;
+    background-color: var(--tertiary-clr);
 }
 
 .footer {
@@ -53,11 +59,11 @@ button {
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--main-clr);
 }
 
 a:hover {
-    color: green;
+    color: var(--main-clr);
 }
 
 
